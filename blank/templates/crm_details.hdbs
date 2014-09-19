@@ -1,0 +1,8 @@
+<div class="user">
+  <ul>
+    <li><span class="title">Name:</span> {{user.name}} {{#if user.vip}}<span class="vip">VIP &#9733;</span>{{/if}}</li> 
+    <li><span class="title">Email: </span> {{user.email}}</li>
+    <li><span class="title">Expiration Date:</span> {{user.expiration_date}}</li>
+    <li><span class="title">Plan:</span> <span class="plan {{user.plan}}">{{user.plan}}</span></li>
+  </ul>
+</div>

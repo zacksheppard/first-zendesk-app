@@ -1,0 +1,14 @@
+{
+  "name": "My CRM Example app",
+
+  "author": {
+    "name": "Zack Sheppard",
+    "email": "skinney@zendesk.com"
+  },
+
+  "location": ["ticket_sidebar"], // This is where it shows in ZD, other choices are the entire UI, and user sidebar, top bar (top bar is used a lot for chat and phone integrations) etc. new ticket sidebar is different than ticket sidebar. new ticket is when you are making a new ticket.
+  "defaultLocale": "en", // this is the language
+  "private": true, 
+  "frameworkVersion": "1.0", // specifies the ZD version it's tied to.
+  "version": "1.0" // my version number
+}
